@@ -355,7 +355,7 @@ template {
     display: flex;
     flex-wrap: wrap;
     height: 100vh;
-    width: 60%;
+    width: 30%;
     background: center / cover no-repeat
         url("images/allec-gomes-CqPjQBJOXWA-unsplash.jpg");
 }
@@ -371,7 +371,7 @@ template {
 
 .logo-banner {
     order: 1;
-    margin-top: 40%;
+    margin-top: 30%;
     display: inline-flex;
     justify-content: center;
     font-size: 2rem;
@@ -387,14 +387,65 @@ template {
     align-self: center;
 }
 
-.form-container {
-    background-color: ;
-}
-
 .info-container {
-    font-size: 1.13rem;
-    margin-top: 20%;
-    padding: 0 5% 0 5%;
-    border: 2px solid red;
+  
+    background-color: white;
+    font-size: 1.2rem;
+    padding: 1% 5% 0 6%;
+    width: 90%;
+
 }
 
+.content {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.right {
+    width: 70%;
+    display: flex;
+    gap: 5%;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.form-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    padding-top: 2%;
+    padding-bottom: 5%; 
+    padding-left: 10%;  
+    box-shadow: 10px 5px 10px rgb(120, 120, 120);
+    background-color: rgb(245, 245, 245);
+    
+
+}
+
+.form-title {
+    width: 100%;
+    font-size: 1.5rem;
+
+}
+
+.input {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+button {
+    padding: 2% 4%;
+    margin: 4% 0 0 4%;
+    border-radius: 5px;
+    background-color: peachpuff;
+    font-size: 1.4rem;
+}
+
+.account-login {
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    justify-self: center;
+    margin-left: 4%;
+
+}

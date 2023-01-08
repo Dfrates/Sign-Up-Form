@@ -8,21 +8,21 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
     </head>
     <body>
-        <div class="background-container">
-            <div class="logo-banner">
-                <img class="peach-logo" src="images/peach.svg" alt="Peach">
-                <p class="banner-text">Peach?</p>
+        <div class="content">
+            <div class="background-container">
+                <div class="logo-banner">
+                    <img class="peach-logo" src="images/peach.svg" alt="Peach">
+                    <p class="banner-text">Peach?</p>
+                </div>
+                <p class="image-credit">Photo by 
+                    <a href="https://unsplash.com/@allecgomes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+                        Allec Gomes</a> on 
+                    <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+                        Unsplash</a>
+                </p>
             </div>
-            <p class="image-credit">Photo by 
-                <a href="https://unsplash.com/@allecgomes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
-                    Allec Gomes</a> on 
-                <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
-                    Unsplash</a>
-            </p>
-        </div>
-
-        <form action="#">
-            <div class="form-container">
+    
+            <div class="right">
                 <div class="info-container">
                     <p class="info-text one">
                         This is not a real online service! You know you need
@@ -30,16 +30,68 @@
                         your deepest dreams. 
                         Sign up <em>now</em> to get started.
                     </p>
-
+        
                     <p class="info-text two">
                         You <em>know</em> you want to.
                     </p>
                 </div>
+    
+                <form action="#">
+                    <div class="form-container">
+                        <p class="form-title">Let's Do This!</p>
+                        
+                        <div class="input">
+                            <label for="first-name">First Name: </label>
+                            <input type="text" name="first-name" id="first-name" maxlength="40" required>
+                        </div>
+    
+                        <div class="input">
+                            <label for="last-name">Last Name: </label>
+                            <input type="text" name="last-name" id="last-name" maxlength="40" required>
+                        </div>
+    
+                        <div class="input">
+                            <label for="user-email">Email: </label>
+                            <input type="email" name="user-email" id="user-email" maxlength="40" required>
+                        </div>
 
+                        <div class="input">
+                            <label for="user-phone">Phone Number: </label>
+                            <input type="tel" name="user-phone" id="user-phone" required>
+                        </div>
+    
+                        <div class="input">
+                            <label for="user-password">Password: </label>
+                            <input type="password" name="user-password" id="user-password" minlength="6" required>
+                        </div>
+    
+                        <div class="input">
+                            <label for="user-password">Retype Password: </label>
+                            <input type="password" name="user-password" id="user-password" minlength="6" required>
+                        </div>
+                    
+                    </div>
 
-
+                    <div class="button submit">
+                        <button type="submit">Create Account</button>
+                    </div>
+                    
+                </form>
+    
+                <div class="account-login">
+                    Already have an account?
+                    <a href="#">Log in</a>
+                </div>
+                
+        
+                
+            
+                
             </div>
-        </form>
+        </div>
+        
+
+        
             
 
 
