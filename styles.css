@@ -441,6 +441,14 @@ button {
     font-size: 1.4rem;
 }
 
+input:valid {
+    border-color: green;
+}
+
+input:invalid {
+    border-color: red;
+}
+
 .account-login {
     display: flex;
     height: fit-content;
